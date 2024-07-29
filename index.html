@@ -64,6 +64,19 @@
         padding: 5px 10px;
         font-size: 14px;
       }
+      .education .university {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+      .education .degree {
+        font-style: italic;
+        color: #555;
+      }
+      .education .location {
+        color: #777;
+        font-size: 14px;
+      }
     </style>
   </head>
   <body>
@@ -93,8 +106,16 @@
 
       <div class="education">
         <h2 class="section-title">Education</h2>
-        <p>Master of Computer Applications, Chandigarh University (2021 - 2023), Mohali, India</p>
-        <p>Bachelor of Computer Applications, Quantum University (2018 - 2021), Roorkee, India</p>
+        <div class="list-item">
+          <div class="university">Chandigarh University</div>
+          <div class="degree">Master of Computer Applications (2021 - 2023)</div>
+          <div class="location">Mohali, India</div>
+        </div>
+        <div class="list-item">
+          <div class="university">Quantum University</div>
+          <div class="degree">Bachelor of Computer Applications (2018 - 2021)</div>
+          <div class="location">Roorkee, India</div>
+        </div>
       </div>
 
       <div class="experience">
